@@ -5,6 +5,7 @@
     <router-link :to="{name : 'jobs'}">Jobs</router-link>
   </nav>
   <router-view/>
+  <br>
   <button @click="redirect">Redirect</button>
   <button @click="goForward">Go Forward</button>
   <button @click="goBack">Go Back</button>
@@ -40,9 +41,13 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  background-color: #42b983;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 </style>
