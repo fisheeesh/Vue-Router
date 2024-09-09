@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link :to="{name : 'home'}">Home</router-link> |
+    <router-link :to="{name : 'home'}">Home</router-link> | 
     <router-link :to="{name : 'about'}">About</router-link> | 
-    <router-link :to="{name : 'jobs'}">Job</router-link>
+    <router-link :to="{name : 'jobs'}">Jobs</router-link>
   </nav>
   <router-view/>
   <button @click="redirect">Redirect</button>

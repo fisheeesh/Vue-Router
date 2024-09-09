@@ -1,6 +1,6 @@
 <template>
-  <h2>404</h2>
-  <p>Not Found URL</p>
+    <h1>404</h1>
+    <p>Not Fount</p>
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
 </script>
 
 <style>
-h2{
-    color : crimson
+h1{
+    color: crimson;
 }
 </style>
